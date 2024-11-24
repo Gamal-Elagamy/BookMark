@@ -1,0 +1,43 @@
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+
+
+
+#main{
+    background-color: #fec260;
+    color: #352e28;
+}
+
+#mainTitle{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+}
+
+#middle{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px black dotted;
+    border-bottom: 2px black dotted;
+}
+
+#middleMainTitle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#middleMainTitle h2{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-family: "Righteous", cursive;
+    font-size: 30px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+}
