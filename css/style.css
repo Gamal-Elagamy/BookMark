@@ -4,8 +4,7 @@
   box-sizing: border-box;
  }
 
- html, body {
-    width: 100%;
+ html, body { 
     height: 100%;
 }
 
@@ -15,16 +14,18 @@
     color: #352e28;
 }
 
-#mainTitle{
+#mainTitle {
     padding-top: 30px;
     padding-bottom: 60px;
     text-align: center;
-    width: 50%;
     margin: auto;
     font-size: 50px;
     font-family: "Pacifico", cursive;
-    color: #352e28;
+    background: linear-gradient(to right, #4baa67, #d8cc4a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 
 #middle{
     padding-top: 50px;
@@ -37,11 +38,13 @@
     margin-top: 20px;
     margin-bottom: 10px;
 }
-#middleMainTitle h2{
+#middleMainTitle h2 {
     width: fit-content;
     margin: auto;
     text-align: center;
     font-family: "Righteous", cursive;
     font-size: 30px;
     background: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
